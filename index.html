@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Flames game</title>
+</head>
+
+<body
+    class="bg-gradient-to-r from-yello to-pink relative font-roboto">
+    <main class="p-5  ">
+        <section class="play min-h-screen flex justify-center items-center flex-col absolute">
+            <h1 class="font-thin  text-slate-200 capitalize text-xl">welcome & play the flames game
+                <span class="text-zinc-900 text-lg inline"> &#10084;</span>
+            </h1>
+            <button type="button" role="button"
+                class="btn-entry capitalize text-xl border py-3 px-6 rounded-md bg-white mt-5 shadow-lg active:bg-transparent active:text-zinc-900 transition-all ease-in-out duration-150">
+                play
+            </button>
+
+        </section>
+        <section class="game  transition-all duration-200 ease-in-out  hidden">
+            <div class=" text-center  mt-10  text-slate-300  ">
+                <span class=" flame capitalize ml-3 font-bold text-3xl shadow-sm" data-id="f">f</span>
+                <span class=" flame capitalize ml-3 font-bold text-3xl shadow-sm" data-id="l">l</span>
+                <span class=" flame capitalize ml-3 font-bold text-3xl shadow-sm " data-id="a">a</span>
+                <span class=" flame capitalize ml-3 font-bold text-3xl shadow-sm" data-id="m">m</span>
+                <span class=" flame capitalize ml-3 font-bold text-3xl shadow-sm" data-id="e">e</span>
+                <span class=" flame capitalize ml-3 font-bold text-3xl shadow-sm" data-id="s">s</span>
+            </div>
+
+            <div class="user  text-center mt-11">
+                <form action="#" class="check">
+                    <input type="text" placeholder="your name.."
+                        class=" fname mt-5 w-60 outline-none px-2 border-0 bg-transparent border-b-2 py-1 text-slate-50  placeholder:text-white uppercase font-thin text-sm shadow-lg">
+                    <input type="text" placeholder="lover name.."
+                        class=" lname mt-5 w-60 outline-none px-2 border-0 bg-transparent border-b-2 py-1 text-slate-50 placeholder:text-white uppercase font-thin text-sm shadow-lg">
+                    <input type="submit" value="check"
+                        class="class= check-btn block mx-auto mt-10 border py-3 px-6 rounded-lg text-white shadow-lg">
+                </form>
+
+            </div>
+
+
+            <p class="flex flex-col  justify-between mt-5 capitalize text-slate-200 max-w-md">
+
+
+                <span class=" friend flex justify-between items-center mr-2 mt-2"> F : stand for fried ship <img
+                        src=" https://i1.pngguru.com/preview/96/232/16/friendship-day-watercolor-paint-wet-ink-love-hug-best-friends-forever-person-png-clipart.jpg"
+                        alt="frind" class=" w-8 drop-shadow-lg mt-2  ">
+                </span>
+                <span class=" love flex justify-between items-center mr-2 mt-2"> L : stand for love <img
+                        src="https://res.cloudinary.com/dqlgjekue/image/upload/v1676198582/emojii/R.72547d69b222d98348e21b9091aa3d6a_heof79.png"
+                        alt="love" class=" w-8 drop-shadow-lg mt-2  "></span>
+                </span>
+                <span class="affection flex justify-between items-center mr-2 mt-2 ">A : stand for affection <img
+                        src="https://res.cloudinary.com/dqlgjekue/image/upload/v1676198272/emojii/heart-eye-emoji-png-picture-01917779_jslukz.png"
+                        alt="affection" class=" w-8 drop-shadow-lg mt-2  ">
+                </span>
+                <span class="marriage flex justify-between items-center mr-2 mt-2 "> M : stand for marriage <img
+                        src="https://res.cloudinary.com/dqlgjekue/image/upload/v1676198614/emojii/08c3e1ec5277eb90bf327a06783bbe08_krsgd4.png"
+                        alt="mirrage" class=" w-12 drop-shadow-lg mt-2  "></span>
+                <span class="enemy flex justify-between items-center mr-2 mt-2">
+                    E : stand for enemy <img
+                        src="https://res.cloudinary.com/dqlgjekue/image/upload/v1676198643/emojii/Super_Angry_Face_Emoji_ios10_ufqsrn.png"
+                        alt="enemy" class=" w-8 drop-shadow-lg mt-2  ">
+                </span>
+                <span class="sister flex justify-between items-center mr-2 mt-2">s:stand for sister <img
+                        src="https://res.cloudinary.com/dqlgjekue/image/upload/v1676198669/emojii/Two_Women_Holding_Hands_Emoji_Icon_ios10_grande_gdvnai.png"
+                        alt="sister" class="w-8 drop-shadow-lg mt-2  ">
+                </span>
+            </p>
+
+        </section>
+        <section class="end min-h-screen  flex-col items-center justify-center hidden absolute inset-0 ">
+            <h2 class="text-center text-slate-300 capitalize text-xl">the relationship between you and your friend will
+                end in</h2>
+            <p class="flex flex-col  justify-between mt-5 capitalize text-slate-200 max-w-md  ">
+
+                <span class="f friend hidden justify-between items-center  mt-2 "> friends
+
+                </span>
+                <span class="l love hidden justify-between items-center  mt-2 text-xl text-zinc-900 font-bold"> lovers
+
+                </span>
+                </span>
+                <span
+                    class="a affection hidden justify-between items-center  mt-2 text-xl text-zinc-900 font-bold">affection
+
+                </span>
+                <span class="m marriage hidden justify-between items-center mr-2 mt-2 text-xl text-zinc-900 font-bold ">
+                    marriage
+
+                </span>
+                <span class="e enemy hidden justify-between items-center mr-2 mt-2 text-xl text-zinc-900 font-bold ">
+                    enemy
+
+                </span>
+                <span
+                    class="s sister hidden  justify-between items-center mr-2 mt-2 text-xl text-zinc-900 font-bold">sister
+                </span>
+            </p>
+
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
