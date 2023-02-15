@@ -13,7 +13,7 @@ let c;
 // console.log(fName)
 
 
-window.addEventListener("DOMContentLoaded", function () {
+
 	btnEntry.addEventListener("click", function () {
 
 		document.querySelector(".play").classList.toggle('hidden');
@@ -80,6 +80,4 @@ window.addEventListener("DOMContentLoaded", function () {
 		}
 
 	})
-})
-
 
